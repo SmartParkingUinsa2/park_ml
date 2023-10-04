@@ -52,7 +52,7 @@ def detect_objects(image_path):
 
 # Main function
 def main():
-    image_path = "gambar\coba6.jpg"
+    image_path = "gambar\coba5.jpg"
     locations, classes, scores = detect_objects(image_path)
 
     image_cv2 = cv2.imread(image_path)
